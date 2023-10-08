@@ -1,0 +1,33 @@
+Documentation:
+
+Import the required libraries for data manipulation, visualization, and machine learning.
+
+Load the dataset ('bank-full.csv') into a DataFrame ('df') using pandas.
+
+Explore the dataset by displaying its first 10 rows, checking for missing values, and examining unique values in categorical columns.
+
+Visualize the distribution of the 'age' column using a density plot and calculate basic descriptive statistics for the 'age' column.
+
+Create a histogram to visualize the age distribution by 'y' (subscription) outcome.
+
+Perform statistical tests (chi-squared and one-way ANOVA) to check the association between categorical columns and the 'y' outcome.
+
+Create various visualizations, including density plots, countplots, and boxplots, to explore data distributions and relationships.
+
+Remove outliers from the dataset using the Interquartile Range (IQR) method.
+
+Convert binary categorical columns ('default', 'housing', 'loan', 'y') to binary numerical columns (0 and 1).
+
+Drop non-numeric columns from the dataset.
+
+Create a correlation matrix for numeric columns and visualize it using a heatmap.
+
+Use SelectKBest to select the top k features based on ANOVA F-scores.
+
+Define a dictionary of machine learning models (Logistic Regression, Linear Discriminant Analysis, k-Nearest Neighbors, Naive Bayes, Decision Tree, Random Forest).
+
+Loop through the models, train them on the training data, and evaluate their accuracy on the test data. Save each model with its accuracy as part of the filename.
+
+Display classification reports for each model, including precision, recall, and F1-score.
+
+The code provides an end-to-end data analysis and machine learning pipeline, including data preprocessing, exploratory data analysis, feature selection, and model evaluation.
